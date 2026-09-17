@@ -259,6 +259,8 @@ function Contact() {
                                 cursor: 'pointer',
                                 backdropFilter: 'blur(10px)',
                                 transition: 'all 0.3s ease',
+                                WebkitAppearance: 'none',
+                                appearance: 'none'
                             }}
                             onMouseEnter={e => {
                                 e.currentTarget.style.background = 'rgba(255,255,255,0.14)'

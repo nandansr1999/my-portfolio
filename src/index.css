@@ -44,3 +44,9 @@ body {
     left: 12px !important;
   }
 }
+
+button{
+  -webkit-appearance: none;
+  appearance: none;
+
+}
