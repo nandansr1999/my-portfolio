@@ -249,6 +249,7 @@ function Contact() {
                                 width: '100%',
                                 padding: '0.9rem',
                                 borderRadius: '10px',
+                                backgroundColor: 'rgba(255,255,255,0.08)',
                                 background: 'rgba(255,255,255,0.08)',
                                 border: '1px solid rgba(255,255,255,0.2)',
                                 color: '#ffffff',
@@ -258,9 +259,12 @@ function Contact() {
                                 fontWeight: '400',
                                 cursor: 'pointer',
                                 backdropFilter: 'blur(10px)',
+                                WebkitBackdropFilter: 'blur(10px)',
                                 transition: 'all 0.3s ease',
                                 WebkitAppearance: 'none',
-                                appearance: 'none'
+                                appearance: 'none',
+                                outline: 'none',
+                                boxSizing: 'border-box',
                             }}
                             onMouseEnter={e => {
                                 e.currentTarget.style.background = 'rgba(255,255,255,0.14)'

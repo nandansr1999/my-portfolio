@@ -45,8 +45,8 @@ body {
   }
 }
 
-button{
+button {
   -webkit-appearance: none;
   appearance: none;
-
+  background: transparent;
 }
